@@ -1,0 +1,82 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>20.0f1</Version>
+<Cluster>
+<Name>Settings in</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Hardware Configuration</Name>
+<NumElts>8</NumElts>
+<Refnum>
+<Name>Inst.</Name>
+<RefKind>VISA</RefKind>
+<Val>USB0::0x0471::0x2516::482H16101::INSTR</Val>
+</Refnum>
+<Cluster>
+<Name>Serial Configuration</Name>
+<NumElts>5</NumElts>
+<U32>
+<Name>Baud Rate</Name>
+<Val>0</Val>
+</U32>
+<U16>
+<Name>Parity</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>Data Bits</Name>
+<Val>8</Val>
+</U16>
+<U16>
+<Name>Stop Bits</Name>
+<Val>10</Val>
+</U16>
+<U16>
+<Name>Flow Control</Name>
+<Val>9600</Val>
+</U16>
+</Cluster>
+<Boolean>
+<Name>Reset</Name>
+<Val>1</Val>
+</Boolean>
+<I32>
+<Name>Trigger Count</Name>
+<Val>0</Val>
+</I32>
+<Boolean>
+<Name>BIN State</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>COMP State</Name>
+<Val>0</Val>
+</Boolean>
+<U16>
+<Name>Trigger Source</Name>
+<Val>0</Val>
+</U16>
+<Boolean>
+<Name>Stat State </Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Logging Configuration</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>*IDN?</Name>
+<Val></Val>
+</String>
+<Path>
+<Name>File Path</Name>
+<Val></Val>
+</Path>
+<Refnum>
+<Name>File Path Ref</Name>
+<RefKind>Byte Stream File</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+</Cluster>
+</Cluster>
+</LVData>
